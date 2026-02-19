@@ -1,5 +1,19 @@
+package DSALinkedList;
+
+
+
 public class SingleLinkedList {
- Node head;//must store refference to the head because in singlly linked we start to the head then next node
+	class Node {
+			int data;
+			Node next;
+
+				Node(int data){
+				this.data=data;
+				this.next=null;
+				}
+			}
+	
+ Node head;//must store reference to the head because in single linked we start to the head then next node
  
  SingleLinkedList(){
 	 head=null; //initialized to null because we don't  know the address yet, it will be update once the data is inserted
@@ -89,4 +103,5 @@ public class SingleLinkedList {
  			System.out.println(list.search(9));
  			System.out.println(list.search(10));
  		}
+ 		
 }
