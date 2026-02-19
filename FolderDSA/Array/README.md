@@ -1,4 +1,5 @@
 # A program to multiply to matrix 
+A program that take two matrixes,multiplys then and display the results
  ## FEATURES
   1. Uses two dimensional Array
   2. Checks for compatibility
